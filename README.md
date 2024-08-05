@@ -1,8 +1,23 @@
-# React + Vite
+MERN Stack School Management System :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a School Management System built using the MERN (MongoDB, Express.js, React, Node.js) stack. The frontend is developed with React and Vite, with styling done using styled-components.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Admin Dashboard: Administrators can manage student records, teacher information, courses, exams, assignments, track student attendance, add teachers, and view school performance metrics.
+Student Dashboard: Students have access to their own dashboard where they can view their class schedules, assignments, submit assignments, and track their academic progress.
+Teachers Dashboard: Teachers can manage class schedules, assign and grade exams and assignments, and view student performance metrics.
+
+Operations Include:
+Adding Students: Admins can add new student records, including personal details and academic information.
+Class Management: Admins can create and manage classes, assign teachers, and schedule classes.
+Task Management:Teachers can create assignments, assign them to classes, and track student submissions.
+Student Submission: Students can submit assignments through the student dashboard.
+Adding Teachers: Admins can add new teachers to the system.
+
+Technologies Used:
+
+Frontend: React, Vite, styled-components
+Backend: Node.js, Express.js
+Database: MongoDB
+Authentication: JSON Web Tokens (JWT)
