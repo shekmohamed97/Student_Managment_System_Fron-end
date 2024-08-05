@@ -18,6 +18,9 @@ Adding Teachers: Admins can add new teachers to the system.
 Technologies Used:
 
 Frontend: React, Vite, styled-components
+
 Backend: Node.js, Express.js
+
 Database: MongoDB
+
 Authentication: JSON Web Tokens (JWT)
